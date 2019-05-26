@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class JSAlertHandling {
 
 	public static void main(String[] args) throws InterruptedException {
-		//System.setProperty("webdriver.chrome.driver","/Users/newowner/Selenium/chromedriver" );
+		
 		System.setProperty("webdriver.chrome.driver","/Users/newowner/Selenium/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().fullscreen();
@@ -19,9 +19,11 @@ public class JSAlertHandling {
 		//--> unexpected alert open
 		//driver.findElement(By.id("confirm")).click();
 		//switch focus to the alert window
-		Alert alert=driver.switchTo().alert();
-		((org.openqa.selenium.Alert) alert).accept();
+        
+ 		Alert alert=driver.switchTo().alert();
+		(alert).accept();
 		//click on confirm button
+		
 		driver.findElement(By.id("confirm")).click();
 		Thread.sleep(2000);
 		

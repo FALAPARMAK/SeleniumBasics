@@ -78,7 +78,7 @@ public class DropDownReview {
 		select1.deselectAll();
 		
 		Thread.sleep(2000);
-		driver.quit();
+		//driver.quit();
 		
 
 	}

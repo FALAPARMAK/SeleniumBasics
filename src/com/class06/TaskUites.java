@@ -28,7 +28,7 @@ public class TaskUites {
 		driver.get("http://uitestpractice.com/");
 		driver.findElement(By.linkText("Select"));
       WebElement countriesDD=driver.findElement(By.id("select#countriesSingle"));
-      CommonMethods.selectValueFromDropDown(countriesDD, "“United states of America");
+    //  CommonMethods.selectValueFromDropDown(countriesDD, "United states of America");
 		Select select =new Select(countriesDD);
 		Thread.sleep(2000);
 		

@@ -37,6 +37,9 @@ public class HandleWindows {
 		Thread.sleep(3000);
 		//driver.switchTo().window(parent);
 		driver.close();
+		
+		
+		
 	}
 
 }

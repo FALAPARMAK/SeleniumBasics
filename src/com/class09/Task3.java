@@ -35,6 +35,7 @@ public class Task3 extends CommonMethods {
      }else {
     	 System.out.println("Message is not displayed");
      }
+     driver.quit();
 		
 	}
 

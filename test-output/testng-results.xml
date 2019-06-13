@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7516" started-at="2019-06-03T20:08:52Z" finished-at="2019-06-03T20:09:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7516" started-at="2019-06-03T20:08:52Z" finished-at="2019-06-03T20:09:00Z">
+      <class name="com.class12.BrokenLinkExample">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.class12.BrokenLinkExample@1593948d]" name="SetUp" is-config="true" duration-ms="3728" started-at="2019-06-03T20:08:52Z" finished-at="2019-06-03T20:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Links()[pri:0, instance:com.class12.BrokenLinkExample@1593948d]" name="Links" duration-ms="3668" started-at="2019-06-03T20:08:56Z" finished-at="2019-06-03T20:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Links -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.class12.BrokenLinkExample@1593948d]" name="close" is-config="true" duration-ms="88" started-at="2019-06-03T20:09:00Z" finished-at="2019-06-03T20:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.class12.BrokenLinkExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

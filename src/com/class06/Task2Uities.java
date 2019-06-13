@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import util.CommonMethods;
 
-public class Task2Uities {
+public class Task2Uities  extends CommonMethods{
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -22,7 +22,7 @@ public class Task2Uities {
         //working with Single DD
         WebElement countriesDD=driver.findElement(By.id("countriesSingle"));
     
-        CommonMethods.selectValueFromDropDown(countriesDD, "United states of America");
+        selectValueFromDD(countriesDD, "United states of America");
         
         //working with muplitple DD
         WebElement multDD=driver.findElement(By.cssSelector("select#countriesMultiple"));
@@ -46,5 +46,7 @@ public class Task2Uities {
         Thread.sleep(2000);
         driver.quit();
 	}
+
+	
 
 }
